@@ -15,10 +15,13 @@
 # Directories to ignore (do not add trailing '/'s, they skip symlinks):
 /*.egg-info
 /.pytest_cache
-
+/.venv
 # Python cache.
 *.py[cod]
 __pycache__
 
 # Ignore codecoverage stuff.
 coverage.*
+
+# Pact-python logs
+pact-mock-service.log

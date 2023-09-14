@@ -131,10 +131,13 @@ EXTRAS_REQUIRE = {
         'flake8-blind-except>=0.2.0',  # Checks for blind except: statements
         'flake8-import-order>=0.18.1',  # Checks the ordering of imports
         'flake8>=6.0.0',  # The modular source code checker
-        'pact-python>=1.7.0',  # Create and verify consumer driven contracts
+        # 'pact-python>=1.7.0',  # Create and verify consumer driven contracts
+        # 'pact-python @ https://github.com/YOU54F/pact-python/archive/f2a1ce9cf598f6f3bad7ab0aafd97cc17ff7d669.tar.gz',  # Create and verify consumer driven contracts
+        'pact-python @ https://github.com/YOU54F/pact-python/archive/3.0.0b0.tar.gz',  # Create and verify consumer driven contracts
         'pylint>=2.6.2',  # Python code static checker
         'pytest>=6.2.4',  # Our tests framework
         'responses>=0.22.0',  # Mocking out the ``requests`` Python library
+        'urllib3==1.26.14'
     ],
     'docs': [
     ],
